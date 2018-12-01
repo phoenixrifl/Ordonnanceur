@@ -1,0 +1,17 @@
+POUR COMPILER :
+
+lancer la commande make
+
+POUR EXECUTER :
+
+scheduler lifo :
+
+./lifo -s : en séquentiel
+./lifo -t nombre de threads : avec des threads qui executent les taches en simultanés
+./lifo : pour un nombre aléatoire de threads
+
+scheduler workStealing :
+
+./stealing -s
+./stealing -t nbre de threads
+./stealing
